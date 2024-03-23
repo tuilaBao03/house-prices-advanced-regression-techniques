@@ -12,7 +12,7 @@ model = pickle.load(open('decision_tree_model.pkl', 'rb'))
 # Streamlit app
 st.title('House Price Prediction')
 
-    # 1 MSSubClass: Identifies the type of dwelling involved in the sale
+# 1 MSSubClass: Identifies the type of dwelling involved in the sale
 mssubclass_options = [20,30,40,45,50,60,70,75,80,85,90,120,150,160,180,190]
 mssubclass = st.selectbox("MSSubClass:", mssubclass_options)
 
