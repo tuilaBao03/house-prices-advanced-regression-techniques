@@ -1,4 +1,4 @@
-sscikit-learn>=0.24.0
+scikit-learn>=0.24.0
 opencv-contrib-python-headless>=4.1.2
 opencv-python-headless>=4.1.2
 beautifulsoup4==4.11.1
