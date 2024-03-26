@@ -5,8 +5,9 @@ import pickle
 
 
 # Load the trained Decision Tree model
-model = pickle.load(open('decision_tree_model.pkl', 'rb'))
+# model = pickle.load(open('decision_tree_model.pkl', 'rb'))
 
+model = pickle.load(open('decision_tree_model.pkl', 'rb'))
 
 
 # Streamlit app
